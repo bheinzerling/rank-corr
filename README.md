@@ -1,4 +1,41 @@
 rank-corr
 =========
 
-An application designed to teach the ranked correlation measures Kendall's tau, Spearman's rho, and average precision.
+This is a Python application designed to teach the ranked correlation measures [Kendall's tau](http://en.wikipedia.org/wiki/Kendall's_tau), [Spearman's rho](http://en.wikipedia.org/wiki/Spearman's_rank_correlation_coefficient), and [average precision](http://en.wikipedia.org/wiki/Average_precision#Average_precision).
+
+While these commonly used measures are easy to compute, it may be difficult to understand their different properties just by looking at the formulas. This application helps to get a better intuition of rank correlation measures by providing an interactive toy example and direct plot of the results.
+
+![Screenshot](screenshot.png)
+
+
+Requirements
+============
+
+PyQt4
+-----
+
+On Debian/Ubuntu: ```apt-get install python-qt4```
+
+Other Systems: http://www.riverbankcomputing.com/software/pyqt/download
+
+Matplotlib
+----------
+
+Using pip: ```pip install matplotlib```
+
+Or: http://matplotlib.org/downloads.html
+
+NumPy
+-----
+
+Using pip: ```pip install numpy```
+
+Or: http://scipy.org/Download
+
+
+Installation
+===========
+
+Do: ```git clone https://github.com/noutenki/rank-corr.git rank-corr```
+
+Then run the program with: ```python rank_corr.py```
