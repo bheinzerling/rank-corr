@@ -11,19 +11,19 @@ While these commonly used measures are easy to compute, it may be difficult to u
 Requirements
 ============
 
-# PyQt4
+### PyQt4
 
 On Debian/Ubuntu: ```apt-get install python-qt4```
 
 Other Systems: http://www.riverbankcomputing.com/software/pyqt/download
 
-# Matplotlib
+### Matplotlib
 
 Using pip: ```pip install matplotlib```
 
 Or: http://matplotlib.org/downloads.html
 
-# NumPy
+### NumPy
 
 Using pip: ```pip install numpy```
 
