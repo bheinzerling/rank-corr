@@ -3,7 +3,7 @@ rank-corr
 
 This is a Python application designed to teach the ranked correlation measures [Kendall's tau](http://en.wikipedia.org/wiki/Kendall's_tau), [Spearman's rho](http://en.wikipedia.org/wiki/Spearman's_rank_correlation_coefficient), and [average precision](http://en.wikipedia.org/wiki/Average_precision#Average_precision).
 
-While these commonly used measures are easy to compute, it may be difficult to understand their different properties just by looking at the formulas. This application helps to get a better intuition of rank correlation measures by providing an interactive toy example and direct plot of the results.
+While these commonly used measures are easy to compute, it may be difficult to understand their behaviour just by looking at the formulas. This application helps to get a better intuition of rank correlation measures by providing an interactive toy example and directly plotting the results.
 
 ![Screenshot](screenshot.png)
 
