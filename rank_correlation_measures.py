@@ -66,8 +66,3 @@ def AP(gold_ranking, test_ranking):
 
 	return 1.0 / R * I_i.dot(p_i)
 
-if __name__ == '__main__':
-	a = [1,2,3,4,5,6,7,8,9]
-	b = [1,2,3,4,5,6,7,8,9]
-	print(AP(a, b))
-	print(GAP(a, b))
